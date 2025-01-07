@@ -61,7 +61,7 @@ public class User {
 
         for (int i = 0; i < fCount; i++) {
 
-            if (follows[i].equals(name)) {
+            if (follows[i].equalsIgnoreCase(name)) {
                 return true;
             }
 
